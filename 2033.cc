@@ -21,12 +21,11 @@ int origin(string &input)
 int main()
 {
 	string input;
-	for(int i=0;true;)
+	for(;true;)
 	{
 		cin>>input;
 		if(input=="0") break;
 		cout<<origin(input)<<endl;
-		i=0;
 		input.clear();
 	}
 	return 0;
